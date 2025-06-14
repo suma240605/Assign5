@@ -1,0 +1,296 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 40px auto;
+  background: #ffffffee;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.title {
+  font-size: 40px;
+  color: #3e1f47;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 18px;
+  color: #8d6e63;
+  margin-top: 5px;
+}
+
+h3 {
+  color: #3e1f47;
+  border-left: 6px solid #f48fb1;
+  padding-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.profile-img {
+  margin-top: 15px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #f06292;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Skills Section */
+.skill-lists {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.skill-lists div {
+  background: #fce4ec;
+  padding: 20px;
+  border-radius: 10px;
+  width: 45%;
+  min-width: 250px;
+}
+
+.skill-lists ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Education Table */
+.education table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.education th,
+.education td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.education th {
+  background-color: #f8bbd0;
+  color: #3e1f47;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+form input,
+form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+form button {
+  background-color: #f06292;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #ad1457;
+}
+
+/* Social Icons */
+.social .icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 15px;
+}
+
+.social i {
+  font-size: 30px;
+  color: #f06292;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social i:hover {
+  transform: scale(1.2);
+  color: #3e1f47;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 40px auto;
+  background: #ffffffee;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.title {
+  font-size: 40px;
+  color: #3e1f47;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 18px;
+  color: #8d6e63;
+  margin-top: 5px;
+}
+
+.profile-img {
+  margin-top: 15px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #f06292;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Skills Section */
+.skill-lists {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.skill-lists div {
+  background: #fce4ec;
+  padding: 20px;
+  border-radius: 10px;
+  width: 45%;
+  min-width: 250px;
+}
+
+.skill-lists ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Education Table */
+.education table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.education th,
+.education td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.education th {
+  background-color: #f8bbd0;
+  color: #3e1f47;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+form input,
+form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+form button {
+  background-color: #f06292;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #ad1457;
+}
+
+/* Social Icons */
+.social .icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 15px;
+}
+
+.social i {
+  font-size: 30px;
+  color: #f06292;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social i:hover {
+  transform: scale(1.2);
+  color: #3e1f47;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
